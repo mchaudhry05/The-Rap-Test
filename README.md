@@ -21,5 +21,6 @@ Currently, I'm working on implementing the Spotify and Apple Music APIs. The Spo
 ![](/demo/4.png)
 ![](/demo/5.png)
 ![](/demo/6.png)
-
+![](/demo/7.png)
+![](/demo/8.png)
 
