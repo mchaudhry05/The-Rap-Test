@@ -24,7 +24,7 @@ class App extends Component {
     this.intervalID = setInterval(
         () => this.tick(), 6000);
   }
-  componentWillMount(){
+  componentWillUnmount(){
     clearInterval(this.intervalID);
   }
 
