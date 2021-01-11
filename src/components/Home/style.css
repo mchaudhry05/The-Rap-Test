@@ -1,0 +1,28 @@
+.swiper-container{
+    margin-top: 50px;
+}
+
+.container{
+    width: 100%;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.play-Button{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    border-color: black;
+    z-index: 1;
+    color: white;
+    outline: none;
+    font-size: large;
+    font-weight: bold;
+    transform: skew(-20deg);
+    cursor: pointer;
+}
