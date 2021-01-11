@@ -1,0 +1,38 @@
+{
+    "USER": [
+        {
+            "id" : "DRAKE",
+            "levelTracker": [1, 0, 0, 0, 0, 0], 
+            "currentLevel": 0, 
+            "totalScore": 0
+        },
+
+        {
+            "id" : "NAV",
+            "levelTracker": [1, 0, 0, 0, 0, 0], 
+            "currentLevel": 0, 
+            "totalScore": 0
+        }, 
+
+        {
+            "id" : "GUNNA",
+            "levelTracker": [1, 0, 0, 0, 0, 0],
+            "currentLevel": 0, 
+            "totalScore": 0
+        },
+
+        {
+            "id" : "TRAVIS",
+            "levelTracker": [1, 0, 0, 0, 0, 0],
+            "currentLevel": 0, 
+            "totalScore": 0
+        },
+
+        {
+            "id" : "JCOLE",
+            "levelTracker": [1, 0, 0, 0, 0, 0], 
+            "currentLevel": 0, 
+            "totalScore": 0
+        }
+    ]
+}
