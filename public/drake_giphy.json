@@ -1,0 +1,49 @@
+{
+    "DRAKE_GIPHY":{
+        "CORRECT":[
+            {
+                "id": "1", 
+                "src": "https://media.giphy.com/media/2uIeU0iypgCEZmcSqB/giphy.gif"
+            },
+            {
+                "id": "2", 
+                "src": "https://media.giphy.com/media/ynrCQepcvY0WA/giphy.gif"
+            },
+            {
+                "id": "3", 
+                "src": "https://media.giphy.com/media/26gR1QAfLOauRXxu0/giphy.gif"
+            },
+            {
+                "id": "4", 
+                "src": "https://media.giphy.com/media/Wp6SkIkMNI1new4Pk8/giphy.gif"
+            },
+            {
+                "id": "5", 
+                "src": "https://media.giphy.com/media/5xaOcLDE64VMF4LqqrK/giphy.gif"
+            }
+        ], 
+
+        "WRONG":[
+            {
+                "id": "6", 
+                "src": "https://media.giphy.com/media/cL4pqu8GGRIihabgSM/giphy.gif"
+            },
+            {
+                "id": "7", 
+                "src": "https://media.giphy.com/media/l0K4fIEZ1FFiWFJPq/giphy.gif"
+            },
+            {
+                "id": "8", 
+                "src": "https://media.giphy.com/media/TvUhedWQllezC/giphy.gif"
+            },
+            {
+                "id": "9", 
+                "src": "https://media.giphy.com/media/7S6K3cc58aTzq/giphy.gif"
+            },
+            {
+                "id": "10", 
+                "src": "https://media.giphy.com/media/Rn0jvFjpJBHAPugr70/giphy.gif"
+            }
+        ] 
+    }
+}

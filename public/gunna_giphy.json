@@ -1,0 +1,49 @@
+{
+    "GUNNA_GIPHY":{
+        "CORRECT":[
+            {
+                "id": "1", 
+                "src": "https://media.giphy.com/media/QW4rRsziF3o1aZzRAw/giphy.gif"
+            },
+            {
+                "id": "2", 
+                "src": "https://media.giphy.com/media/7JErJKSZhbhYGix3if/giphy.gif"
+            },
+            {
+                "id": "3", 
+                "src": "https://media.giphy.com/media/XHFUlggKBLo2wFCT9x/giphy.gif"
+            },
+            {
+                "id": "4", 
+                "src": "https://media.giphy.com/media/5hfi3fCJYbhdhnZKCe/giphy.gif"
+            },
+            {
+                "id": "5", 
+                "src": "https://media.giphy.com/media/SSKNuuDUTkqDdLmlbT/giphy.gif"
+            }
+        ], 
+
+        "WRONG":[
+            {
+                "id": "6", 
+                "src": "https://media.giphy.com/media/JpvkouiEEqHaEPx2jx/giphy.gif"
+            },
+            {
+                "id": "7", 
+                "src": "https://media.giphy.com/media/H1eM16TzCvB3byTvNN/giphy.gif"
+            },
+            {
+                "id": "8", 
+                "src": "https://media.giphy.com/media/eiFlJmSLJDiq1AT0e3/giphy.gif"
+            },
+            {
+                "id": "9", 
+                "src": "https://media.giphy.com/media/kbQNAn7hqEK2GTWT2c/giphy.gif"
+            },
+            {
+                "id": "10", 
+                "src": "https://media.giphy.com/media/TdFU9A9tKOynH9FkPe/giphy.gif"
+            }
+        ] 
+    }
+}

@@ -1,0 +1,56 @@
+{ 
+    "JCOLE": {
+
+        "1": [
+            {
+                "id": 10, 
+                "song": "/songs/apparently.mp3" ,
+                "options": ["Apparently", "Call Me", "Good Intentations", "Never Change"],
+                "answer": "Apparently", 
+                "correct": "false"
+            } 
+        ],
+
+        "2": [
+            {
+                "id": 14, 
+                "song": "/songs/g.o.m.d..mp3",
+                "options": ["6 Man", "Nonstop", "G.O.M.D.", "Jungle"],
+                "answer": "G.O.M.D.", 
+                "correct": "false"
+            }
+        ], 
+
+        "3": [
+            {
+                "id": 11, 
+                "song": "/songs/kod.mp3",
+                "options": ["God's Plan", "KOD", "Poundcake", "Jaded"],
+                "answer": "KOD", 
+                "correct": "false"
+            } 
+        ], 
+
+        "4": [
+            {
+                "id": 13, 
+                "song": "/songs/middlechild.mp3",
+                "options": ["Marvin's Room", "Energy", "Middle Child", "6 Man"],
+                "answer": "Middle Child", 
+                "correct": "false"
+            }
+        ], 
+
+        "5": [
+            {
+                "id": 14, 
+                "song": "/songs/norolemodelz.mp3",
+                "options": ["6 Man", "No Role Modelz", "6PM in New York", "Jungle"],
+                "answer": "No Role Modelz", 
+                "correct": "false"
+            }
+        ]
+    }
+}
+
+

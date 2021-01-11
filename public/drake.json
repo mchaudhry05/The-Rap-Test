@@ -1,0 +1,63 @@
+{ 
+    "DRAKE": {
+
+        "1": [
+            {
+                "id": 10, 
+                "song": "/songs/bestieverhad.mp3" ,
+                "options": ["God's Plan", "Best I Ever Had", "Nonstop", "Elevate"],
+                "answer": "Best I Ever Had", 
+                "correct": "false"
+            },
+            {
+                "id": 11, 
+                "song": "/songs/godsplan.mp3",
+                "options": ["God's Plan", "All Me", "Poundcake", "Jaded"],
+                "answer": "God's Plan", 
+                "correct": "false"
+            }  
+        ],
+
+        "2": [
+            {
+                "id": 11, 
+                "song": "/songs/godsplan.mp3",
+                "options": ["God's Plan", "All Me", "Poundcake", "Jaded"],
+                "answer": "God's Plan", 
+                "correct": "false"
+            }  
+        ], 
+
+        "3": [
+            {
+                "id": 12, 
+                "song": "/songs/holdon.mp3",
+                "options": ["Jersey", "30 for 30", "Both", "Hold On"],
+                "answer": "Hold On", 
+                "correct": "false"
+            }
+        ], 
+
+        "4": [
+            {
+                "id": 13, 
+                "song": "/songs/mia.mp3",
+                "options": ["Marvin's Room", "Energy", "Mia", "6 Man"],
+                "answer": "Mia", 
+                "correct": "false"
+            }
+        ], 
+
+        "5": [
+            {
+                "id": 14, 
+                "song": "/songs/nonstop.mp3",
+                "options": ["6 Man", "Nonstop", "6PM in New York", "Jungle"],
+                "answer": "Nonstop", 
+                "correct": "false"
+            }
+        ]
+    }
+}
+
+

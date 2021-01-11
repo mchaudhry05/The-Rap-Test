@@ -1,0 +1,56 @@
+{ 
+    "TRAVIS": {
+
+        "1": [
+            {
+                "id": 10, 
+                "song": "/songs/butterflyeffect.mp3" ,
+                "options": ["God's Plan", "Best I Ever Had", "Butterfly Effect", "Elevate"],
+                "answer": "Butterfly Effect", 
+                "correct": "false"
+            }
+        ],
+
+        "2": [
+            {
+                "id": 11, 
+                "song": "/songs/sickomode.mp3",
+                "options": ["God's Plan", "Sicko Mode", "Poundcake", "Jaded"],
+                "answer": "Sicko Mode", 
+                "correct": "false"
+            }  
+        ], 
+
+        "3": [
+            {
+                "id": 12, 
+                "song": "/songs/yosemite.mp3",
+                "options": ["Jersey", "30 for 30", "Both", "Yosemite"],
+                "answer": "Yosemite", 
+                "correct": "false"
+            }
+        ], 
+
+        "4": [
+            {
+                "id": 14, 
+                "song": "/songs/Goosebumps.mp3",
+                "options": ["Goosebumps", "Nonstop", "6PM in New York", "Jungle"],
+                "answer": "Goosebumps", 
+                "correct": "false"
+            } 
+        ], 
+
+        "5": [
+            {
+                "id": 11, 
+                "song": "/songs/highestintherooom.mp3",
+                "options": ["God's Plan", "All Me", "Poundcake", "Highest In the Room"],
+                "answer": "Highest In the Room", 
+                "correct": "false"
+            } 
+        ]
+    }
+}
+
+
