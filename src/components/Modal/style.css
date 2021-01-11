@@ -1,0 +1,53 @@
+.modal{ 
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    justify-content: center;
+    z-index: 1; /* Sit on top */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .modal-content{
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+  }
+  
+  .modal-song-name{
+    font-family: Helvetica;
+    padding: 1em;
+  }
+  
+  .modal-score-color{
+    font-size: 30px;
+  }
+  
+  .giphy-image{
+    padding: 1em;
+  }
+
+  .next-Button{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    border-color: black;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: large;
+    font-weight: bold;
+    transform: skew(-20deg);
+}
