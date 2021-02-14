@@ -1,9 +1,12 @@
+/** 
+ * The project still relies on this in some places, I will 
+ * soon get rid projects dependence on this ContextAPI. 
+ */
+
 import React, { Component } from 'react';
 import user from "./root.json";
 
-
 const AppContext = React.createContext()
-
 
 class AppProvider extends Component {
     // Context state
@@ -21,7 +24,7 @@ class AppProvider extends Component {
   
     // Methods to update state
     
-    setArtistName = (id) =>{
+    /*setArtistName = (id) =>{
       if(this.state.testSelected !== this.state.prevTestSelected || this.state.prevTestSelected === "" ){
         var i; 
         for(i = 0; i < user.USER.length; i++){
@@ -51,11 +54,11 @@ class AppProvider extends Component {
       localStorage.setItem("prevTestSelected", localStorage.getItem("testSelected"));
       localStorage.setItem("testSelected", id);
 
-  }
+  }*/
 
     
 
-    setStage = (id) =>{
+    /*setStage = (id) =>{
       //console.log(id);
       var colors = ["#7be382", "#f8ed62", "palevioletred", "cornflowerblue", "mediumpurple"]; 
       if(id === "novice"){
@@ -99,11 +102,10 @@ class AppProvider extends Component {
       this.setState({
         stage: id
       });
-    }
+    }*/
 
     setScore = (newScore) =>{
       this.setState({score: newScore});
-      // localStorage.setItem("score", newScore);
     }
 
     setQuestions = (questions) =>{
@@ -125,8 +127,8 @@ class AppProvider extends Component {
         const { level } = this.state;
         const { levelTracker } = this.state; 
         const { currentLevel } = this.state;
-        const { setArtistName } = this;
-        const { setStage } = this;
+        //const { setArtistName } = this;
+        //const { setStage } = this;
         const { setScore } = this;
         const { setQuestions } = this;
         const { setLevel } = this;
@@ -142,8 +144,6 @@ class AppProvider extends Component {
             level,
             levelTracker, 
             currentLevel, 
-            setArtistName,
-            setStage,
             setScore,
             setQuestions,
             setLevel,

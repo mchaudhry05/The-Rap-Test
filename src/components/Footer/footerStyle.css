@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    margin-top: 50px;
+    bottom: 0;
+}
+
+.footer-info{
+    color: black;
+    font-size: 10px;
+    font: helvetica;
+    text-align: center;
+    margin-bottom: 0px;
+  }

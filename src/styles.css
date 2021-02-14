@@ -1,13 +1,16 @@
+/** NOT BEING USED, ALL CSS HAS BEEN IMPORTED TO THE INDIVIDUAL COMPONENTS FOLDERS*/
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+
 .App {
-  margin: 0px;
-  padding: 0%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   text-align: center;
 }
 
 body{
-  background-color: #040F16;
+  background-color: white;
 } 
 
 .loading-title-container{
@@ -277,7 +280,7 @@ a{
   justify-content: center;
 }
 
-.game-header{
+/*.game-header{
   width: auto;
   font-size: 10vw;
   font-weight: bolder;
@@ -285,7 +288,7 @@ a{
   margin-top: 0px;
   margin-bottom: 10px;
 }
-
+*/
 .yellow{
   color: #f8ed62;
 }
@@ -299,7 +302,7 @@ a{
   color: white;
 }
 
-.stat-container {
+/*.stat-container {
   margin-top: 0px;
   font-size: medium;
   font: helvetica;
@@ -310,21 +313,24 @@ a{
 
 .label{
   font-size: medium;
-  font: helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 30px;
   font-weight: bold;
+  color: black
 }
 
 .label:hover{
   opacity: 0.5;
 }
-
+*/
+/*
 .choices{
   display: inline-block;
   width: auto;
   align-content: center;
 }
-
+*/
+/*
 .meter-container{
   display: flex;
   justify-content: center;
@@ -334,7 +340,7 @@ a{
   margin-top: 25px;
   margin-bottom: 25px;
   width: 580px;
-	height: 20px;  /* Can be anything */
+	height: 20px; 
 	background:white;
 	border-radius: 25px;
 	padding: 10px;
@@ -352,13 +358,14 @@ a{
   background-color: #7be382;
   position: relative;
   overflow: hidden;
-}
+}*/
 
+/*
 .pause{
   width: 30px;
   height: 30px;
   background-image: url("./components/images/pause.png");
-  background-color:black;
+  background-color:white;
   background-size: contain;
   outline: none;
   border: black;
@@ -369,7 +376,7 @@ a{
   width: 30px;
   height: 30px;
   background-image: url("./components/images/play.png");
-  background-color:black;
+  background-color:white;
   background-size: contain;
   outline: none;
   border: black;
@@ -380,8 +387,8 @@ a{
 .pause:hover{
   opacity: 0.5;
 }
-
-.choice-buttons{
+*/
+/*.choice-buttons{
   display: block;
   width: 600px;
   height: 50px; 
@@ -398,7 +405,7 @@ a{
 
 .choice-buttons:hover{
   opacity: 0.5;
-}
+}*/
 
 #pause{
   display: block;
@@ -408,10 +415,10 @@ a{
   display: none;
 }
 
-.game-container{
+/*.game-container{
   display: block;
   text-align: center;
-}
+}*/
 
 .name{
 	font-size: 12vw;
@@ -528,13 +535,7 @@ a{
   transform: skew(20deg);
 }
 
-.nextLevelTitle{
-  margin-top: 50px;
-  color: white;
-  text-align: center;
-  font-family: Helvetica;
-}
-
+/*
 .nextLevelButton{
   display: block;
   outline: none;
@@ -554,13 +555,12 @@ a{
   margin-bottom: 200px;
 }
 
+
 .each-question{
   display: flex;
   width: 500px;
   height: 100px; 
   background-color: grey;
-  margin-top: 20px;
-
 }
 
 .correct{
@@ -602,7 +602,7 @@ a{
 .spotify{
   cursor: pointer;
 }
-
+*/
 .swiper-container {
   display: flex; 
   justify-content: center; 

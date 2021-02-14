@@ -1,25 +1,27 @@
 import React, { Component } from 'react'; 
-import './style.css'; 
+import './choicesStyle.css'; 
 
-
+/**
+ * Choices represents the choices you have to choose the name
+ * of the song being played currently.
+ */
 class Choices extends Component{
     
-    state = {
-
-        buttonColor: this.props.buttonColor, 
-        options: this.props.options
-
-    }
-
     render(){
+
+        /**
+         * options: is a prop representing the choices to be displayed for this song 
+         * updateScore: is a function which updates the score 
+         */
+        const { options, updateScore } = this.props;
 
         return(
 
             <div className="choices">
-                <button style={{backgroundColor: this.state.buttonColor}} className ="choice-buttons" id="1" onClick ={e => this.props.updateScore(e.target.id,this.props.options[0])}>{this.props.options[0]}</button>
-                <button style={{backgroundColor: this.state.buttonColor}} className ="choice-buttons" id="2" onClick ={e => this.props.updateScore(e.target.id,this.props.options[1])}>{this.props.options[1]}</button>
-                <button style={{backgroundColor: this.state.buttonColor}} className ="choice-buttons" id="3" onClick ={e => this.props.updateScore(e.target.id,this.props.options[2])}>{this.props.options[2]}</button>
-                <button style={{backgroundColor: this.state.buttonColor}} className ="choice-buttons" id="4" onClick ={e => this.props.updateScore(e.target.id,this.props.options[3])}>{this.props.options[3]}</button>
+                <button className ="choice-buttons" id="1" onClick ={e => updateScore(options[0])}>{options[0]}</button>
+                <button className ="choice-buttons" id="2" onClick ={e => updateScore(options[1])}>{options[1]}</button>
+                <button className ="choice-buttons" id="3" onClick ={e => updateScore(options[2])}>{options[2]}</button>
+                <button className ="choice-buttons" id="4" onClick ={e => updateScore(options[3])}>{options[3]}</button>
             </div>
 
         )

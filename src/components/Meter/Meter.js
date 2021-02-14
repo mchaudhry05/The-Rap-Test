@@ -1,7 +1,10 @@
 import React, { Component } from 'react'; 
-import './style.css'; 
+import './meterStyle.css'; 
 
-
+/**
+ * Meter represents the progress bar which ticks down as time progresses 
+ * Comment: this component still needs work it deos not work properly 
+ */
 class Meter extends Component{
 
     state = { 
@@ -52,7 +55,7 @@ class Meter extends Component{
         return(
 
             <div className="game-container">
-                <h1 className="temp">which {this.state.testSelected} song is this?</h1>
+                <h1 className="question">which {this.state.testSelected} song is this?</h1>
             
                 <div className="meter-container">
                     <div className="meter">

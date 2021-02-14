@@ -1,0 +1,47 @@
+.stat-container {
+    margin-top: 0px;
+    font-size: medium;
+    font: helvetica;
+    color: white;
+    column-count: 3;
+    text-align: center;
+  }
+  
+.label{
+    font-size: medium;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black
+}
+  
+.label:hover{
+    opacity: 0.5;
+}
+
+.pause{
+    width: 30px;
+    height: 30px;
+    background-image: url("pause.png");
+    background-color:white;
+    background-size: contain;
+    outline: none;
+    border: black;
+    cursor: pointer;
+  }
+  
+  .play{
+    width: 30px;
+    height: 30px;
+    background-image: url("play.png");
+    background-color:white;
+    background-size: contain;
+    outline: none;
+    border: black;
+    cursor: pointer;
+  }
+  
+  .play:hover, 
+  .pause:hover{
+    opacity: 0.5;
+  }
