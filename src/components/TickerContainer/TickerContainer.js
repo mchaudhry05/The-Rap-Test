@@ -44,10 +44,10 @@ class TickerContainer extends Component{
             <Ticker speed={speed} direction={direction} move={move} height={200}>
                     {({ index }) => (
                         <div className="scroll-container">
-                            <ArtistCard artistName="DRAKE" artistImage={artistImages[0]} pathname="/levels/drake" score={0} start={this.start} stop={this.stop}/>
-                            <ArtistCard artistName="NAV"  artistImage={artistImages[1]} pathname="/levels/nav" score={0} start={this.start} stop={this.stop}/>
-                            <ArtistCard artistName="GUNNA" artistImage={artistImages[2]} pathname="/levels/gunna" score={0} start={this.start} stop={this.stop}/>
-                            <ArtistCard artistName="JCOLE" artistImage={artistImages[3]} pathname="/levels/jcole" score={0} start={this.start} stop={this.stop}/>
+                            <ArtistCard artistName="DRAKE" artistImage={artistImages[0]} pathname="/levels/drake/" score={0} start={this.start} stop={this.stop}/>
+                            <ArtistCard artistName="NAV"  artistImage={artistImages[1]} pathname="/levels/nav/" score={0} start={this.start} stop={this.stop}/>
+                            <ArtistCard artistName="GUNNA" artistImage={artistImages[2]} pathname="/levels/gunna/" score={0} start={this.start} stop={this.stop}/>
+                            <ArtistCard artistName="JCOLE" artistImage={artistImages[3]} pathname="/levels/jcole/" score={0} start={this.start} stop={this.stop}/>
                         </div>
                      )}
             </Ticker>

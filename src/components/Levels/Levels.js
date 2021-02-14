@@ -51,7 +51,6 @@ class Levels extends Component{
 
     render(){
 
-       
    
         if(this.state.isLoading === true){
             return(
@@ -66,14 +65,14 @@ class Levels extends Component{
                 <div className="hexagon-container">
 
                     <div className="hex-row">
-                        <Level pathname="novice"
+                        <Level pathname={"novice"}
                                level = {1}
                                levelName = "NOVICE"
                                color = "black"
                                score = {this.state.artistStats.totalScore}
                                levelTracker = {this.state.artistStats.levelTracker}
                         />
-                        <Level pathname="intermediate"
+                        <Level pathname={"intermediate"}
                                level = {2}
                                levelName = "INTERMEDIATE"
                                color = "black"
@@ -81,7 +80,7 @@ class Levels extends Component{
                                levelTracker = {this.state.artistStats.levelTracker}
                         />
             
-                        <Level pathname="advanced"
+                        <Level pathname={"advanced"}
                                level = {3}
                                levelName = "ADVANCED"
                                color = "black"
@@ -91,7 +90,7 @@ class Levels extends Component{
                     </div>
 
                     <div className="hex-row even">
-                        <Level pathname="goat"
+                        <Level pathname={"goat"}
                                 level = {4}
                                 levelName = "G.O.A.T."
                                 color = "black"
@@ -99,7 +98,7 @@ class Levels extends Component{
                                 levelTracker = {this.state.artistStats.levelTracker}
 
                         />
-                        <Level pathname="god"
+                        <Level pathname={"god"}
                                level = {5}
                                levelName = "GOD"
                                color = "black"
