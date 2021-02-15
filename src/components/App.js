@@ -39,8 +39,8 @@ class App extends Component {
 
     let updateArtistImages = [];
 
-    var client_id ='4e2317bbe7fd41b2a75e5cd0bcdf1e9e';
-    var client_secret = 'a02c23f0657e44ac9ed5ff3545ea3bb4';
+    var client_id ='*insert client id*';
+    var client_secret = '*insert client key*';
 
     const artistIDs = [
       "3TVXtAsR1Inumwj472S9r4", 
